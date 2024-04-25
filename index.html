@@ -12,7 +12,7 @@
   <body>
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <nav class="navbar navbar-expand-sm sticky-top" style="background-color:#F7CB72">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./img/casa.png" class="navbar_home_logo"></a>
 
@@ -40,7 +40,7 @@
     <div class="row" id="first_row">
 
       <!-- Logo Img -->
-      <div class="col-6 bg-dark text-center">
+      <div class="col-6 text-center" style="background-color:#FFF0DF">
         <img class="logo_img w-auto" src="./img/logo_grande.png" alt="Logo">
       </div>
 
@@ -69,8 +69,80 @@
           </button>
         </div>
       </div>
-      
     </div>
+
+    <div class="text-center header_h1">
+      <h1>Productos</h1>
+    </div>
+
+    <div class="row">
       
+      <!-- First Card -->
+      <div class="col">
+        <div class="card card_img">
+          <img src="./img/queso_parmesano_card.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Queso Parmesano</h5>
+            <p class="card-text">Ruedas de queso parmesano de primera calidad</p>
+            <a href="#" class="btn" style="background-color:#F78972">Ver Precios</a>
+          </div>
+        </div>     
+      </div>
+
+      <!-- Second Card -->
+      <div class="col">
+        <div class="card card_img">
+          <img src="./img/queso_roquefort_card.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Queso Roquefort</h5>
+            <p class="card-text">Queso gourmet de alta calidad y fuerte sabor</p>
+            <a href="#" class="btn" style="background-color:#F78972">Ver Precios</a>
+          </div>
+        </div>     
+      </div>
+
+      <!-- Third Card -->
+      <div class="col">
+        <div class="card card_img">
+          <img src="./img/queso_oveja_trufado_card.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Queso de Oveja Trufado</h5>
+            <p class="card-text">Queso hecho a base de leche de oveja y trufas seleccionadas cuidadosamente</p>
+            <a href="#" class="btn" style="background-color:#F78972">Ver Precios</a>
+          </div>
+        </div>     
+      </div>
+    </div>
+
+    <!-- Header Contacto -->
+    <div class="text-center header_h1">
+      <h1>Contacto</h1>
+    </div>
+
+    <!-- Form -->
+    <div class="container">
+      <form>
+        <div class="mb-3">
+          <label for="nombre_cliente" class="form-label">Nombres</label>
+          <input type="text" class="form-control" id="nombre_cliente" aria-describedby="nombre_cliente_Help">
+        </div>
+        <div class="mb-3">
+          <label for="apellido_cliente" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" id="apellido_cliente" aria-describedby="apellido_cliente_Help">
+        </div>
+        <div class="mb-3">
+          <label for="email_cliente" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email_cliente" aria-describedby="email_cliente_Help">
+        </div>
+        <div class="mb-3">
+          <label for="telefono_cliente" class="form-label">Telefono</label>
+          <input type="text" class="form-control" id="telefono_cliente" aria-describedby="telefono_cliente_Help">
+        </div>
+        <button type="button" class="btn" style="background-color:#F78972">Submit</button>
+      </form>
+    </div>
+
+    
+
   </body>
 </html>

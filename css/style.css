@@ -8,4 +8,12 @@
 /*   height: 600px; */
 /* } */
 
+#body_id {
+  background-color: #FCD4CF;
+}
+
+.header_h1 {
+  margin: 50px;
+}
+
 
